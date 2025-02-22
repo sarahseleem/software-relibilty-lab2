@@ -26,7 +26,7 @@ def binary_search(key, array):
     return array[mid] == key
 
 
-def binary_sort_search_member(key, array):
+def binary_sort_search_member_fail(key, array):
     sorted_array = insertion_sort(array)
     print(sorted_array)
     return binary_search(key, sorted_array)
